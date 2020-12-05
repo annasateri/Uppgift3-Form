@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+<body>
+
+<section class="registration-form">
+    <h1 class="title">skapa konto</h1>
+    <p>skriv in dina personuppgifter</p>
+
+<!-- registration start -->
+    <div class="container">
+        <div class="contact-form row">
+            <div class="form-field col-lg-6">
+                <input id="first-name" class="input-text" type="text" name="" required>
+                <label for="name" class="label">förnamn</label>
+            </div>
+            <div class="form-field col-lg-6">
+                <input id="last-name" class="input-text" type="text" name="" required>
+                <label for="name" class="label">
+                    <span class="label-content">efternamn</span></label>
+            </div>
+            <div class="form-field col-lg-6">
+                <input id="email" class="input-text" type="email" name="" required>
+                <label for="email" class="label">epost</label>
+            </div>
+            <div class="form-field col-lg-6">
+                <input id="phone" class="input-text" type="text" name="" required>
+                <label for="phone" class="label">telefon</label>
+            </div>
+            <div class="form-field col-lg-12">
+                <input id="delivery-adress" class="input-text" type="text" name="" required>
+                <label for="delivery-adress" class="label">leveransadress</label>
+            </div>
+            <div class="form-field col-lg-6">
+                <input id="state" class="input-text" type="text" name="" required>
+                <label for="state" class="label">stad</label>
+            </div>
+            <div class="form-field col-lg-6">
+                <input id="zip" class="input-text" type="text" name="" required>
+                <label for="zip" class="label">postnummer</label>
+            </div>
+            <div class="form-field col-lg-12">
+                <input id="billing-adress" class="input-text" type="text" name="" required>
+                <label for="billing-adress" class="label">faktureringsadress</label>
+            </div>
+            <div class="form-field col-lg-6">
+                <input id="state" class="input-text" type="text" name="" required>
+                <label for="state" class="label">stad</label>
+            </div>
+            <div class="form-field col-lg-6">
+                <input id="zip" class="input-text" type="text" name="" required>
+                <label for="zip" class="label">postnummer</label>
+            </div>
+            <div class="form-field col-lg-6">
+                <input id="password" class="input-text" type="password" name="" required>
+                <label for="password" class="label">lösenord</label>
+            </div>
+            <div class="form-field col-lg-6">
+                <input id="confirm-password" class="input-text" type="password" name="" required>
+                <label for="confirm-password" class="label">bekräfta lösenord</label>
+            </div>
+            <!-- registration end -->
+
+            <!-- checkboxes start -->
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="termsandconditions" required>
+                    <label class="form-check-label" for="termsandconditions">
+                        Jag har läst och godkänner <a href="#">GDPR och användarvillkoren</a>.
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="personalinfo" required>
+                    <label class="form-check-label" for="personalinfo">
+                        Jag ger min tillåtelse att ni hanterar mina personuppgifter.
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="adcheck" required>
+                    <label class="form-check-label" for="adcheck">
+                        Jag vill ta del av nyhetsbrev och reklamerbjudanden.
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <!-- checkboxes end -->
+
+            <!-- submit button, image -->
+            <div class="form-field col-lg-12">
+                <input class="submit-btn" type="submit" value="skicka in" name="">
+            </div>
+            <div class="image">
+                <img id="cat" src="../images/hiclipart.com.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
